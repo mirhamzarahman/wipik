@@ -1,0 +1,750 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+h1, h2, h3, h4, h5, h6, p, ul {
+
+    margin: 0;
+    padding: 0;
+}
+
+ 
+
+    /****************************************** header section ************************************************/
+    /* navbar */
+    
+    header{
+         background: url(../images/banner.png);
+         background-position: center;
+         background-size: cover;
+         background-repeat: no-repeat;
+         min-height: 100vh;
+    
+    }
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        align-items: center;
+    }
+    a.nav-link {
+        color: #cfd3d3;
+        font-weight: 700;
+        padding: 0 !important; 
+        position: relative;
+    }
+    .nav-item{
+        padding: 0 15px;
+    }
+    .white {
+        color: rgb(255, 255, 255) !important;
+    }
+    a.nav-link:hover{
+        color: white;
+        font-size: 18px;
+        transition: .7s all ease-in-out;
+    }
+    a.nav-link::after{
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        height: 3px;
+        width: 0;
+        background-color: aqua;
+        transition: .5s all ease-in-out;
+    }
+    
+    a.nav-link:hover::after{
+        width: 46%;
+        
+    }
+    a.nav-link::before{
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        right: 0;
+        height: 3px;
+        width: 0;
+        background-color: aqua;
+        transition: .5s all ease-in-out;
+    }
+    a.nav-link:hover::before{
+        width: 46%;
+        
+    }
+    
+    .btn-started{
+    
+padding: 0;
+    
+margin-bottom: 7px;
+    
+border: none;
+    
+border: 1px solid #3D7777;
+    
+padding: 8px 20px;
+    
+color: white;
+    
+font-weight: 700;
+    
+background: #6b7f7f;
+    }
+    
+
+.nav-item{
+    padding: 0 15px;
+}
+.white {
+    color: rgb(255, 255, 255) !important;
+}
+a.nav-link:hover{
+    color: white;
+    font-size: 18px;
+    transition: .7s all ease-in-out;
+}
+a.nav-link::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 3px;
+    width: 0;
+    background-color: aqua;
+    transition: .5s all ease-in-out;
+}
+
+a.nav-link:hover::after{
+    width: 46%;
+    
+}
+a.nav-link::before{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    height: 3px;
+    width: 0;
+    background-color: aqua;
+    transition: .5s all ease-in-out;
+}
+a.nav-link:hover::before{
+    width: 46%;
+    
+}
+
+.btn-started:hover{
+    transition: .5s all ease-in-out;
+    color: white;
+   background: transparent;
+    border: 1px solid #6b7f7f;
+
+}
+
+/* banner_content */
+
+
+.banner_content{
+    min-height: 80vh;
+    align-items: center;
+
+}
+.banner_content h1{
+
+font-size: 38px;
+color: white;
+
+margin-bottom: 20px;
+}
+.banner_content p{
+    color: white;
+margin-bottom: 10px;
+font-size: 18px;
+}
+.banner_content .btn-learn{
+
+color: black;
+
+font-size: 16px;
+
+padding: 0;
+
+color: white;
+
+padding: 10px 30px;
+
+background: #6fb048;
+
+border: 1px solid #d2eff0;
+
+font-weight: 600;
+
+margin-top: 10px;
+}
+.banner_content .btn-learn:hover{
+    background: transparent;
+
+}
+
+/************************************************************* feature_section *******************************************/
+
+/* first row */
+.feature_section{
+    padding: 80px 0;
+ color: #0f5f5c;
+
+}
+/**************************** title */
+.title{
+
+}
+.title h1{
+    font-size: 32px;
+    font-weight: 400;
+
+}
+.title p{
+    font-size: 16px;
+    font-weight: 300;
+}
+.title span{
+    display: block;
+    height: 3px;
+    width: 0;
+    background: #0f5f5c;
+    margin: 10px auto;
+    
+}
+
+.feature_section:hover .title span{
+    width: 50px;
+    transition: .5s all ease-in-out;
+}
+
+/**************************** title */
+ /* second row */
+
+ .lonicons{
+
+text-align: center;
+
+/* margin: 100px 0; */
+
+margin-top: 100px;
+}
+ .lonicons img{
+    
+margin-bottom: 15px;
+ }
+ .lonicons h5{
+    
+font-size: 22px;
+    
+margin-bottom: 25px;
+ }
+ .lonicons p{
+    margin-bottom: 30px;
+font-size: 17px;
+ }
+
+
+ /* third row */
+
+.browsers{
+
+}
+ .browsers h5{
+font-size: 18px;
+font-weight: 500 ;
+ }
+ .browsers p{
+    font-size: 14px;
+ }
+ .flex{
+    align-items: center;
+ }
+
+
+ /*********************************************** template_section ************************************************/
+ /* row 1 */
+ .template_section{
+    padding: 100px 0;
+    color: #0f5f5c;
+    background-color: #eef1ec;
+    position: relative;
+    min-height: 90vh;
+ }
+
+ .template_section:hover .title span{
+    width: 50px;
+    transition: .5s all ease-in-out;
+}
+.template_img {
+   text-align: right;
+   position: absolute;
+   bottom: 0px;
+   left: 16%;
+}
+.template_img img{
+    margin-top: 40px;
+}
+
+
+/* row 2 */
+.height{
+    min-height: 57vh;
+    align-items: center;
+}
+.template_contant{
+    
+
+}
+.template_contant h2{
+    
+margin-bottom: 28px;
+    
+font-weight: 400;
+}
+.template_contant p{
+    font-weight: 300;
+margin-bottom: 12px;
+}
+ .template_icons{
+    
+}
+.template_icons img{
+    
+}
+.template_icons p{
+    
+}
+
+/***************************************************Valeria_section *************************************************/
+
+.Valeria_section{
+    padding: 120px 0;
+    color: #83a7a5;
+}
+.Valeria_section{
+
+}
+.Valeria_section h5{
+    font-size: 22px;
+    
+    
+}
+.valeria_img {
+    
+margin-left: 103px;
+}
+.Valeria_section p{
+    font-size: 14px;
+    
+}
+.Valeria_section span{
+    color: #6fb048;
+    
+}
+
+/**************************************************** global_section ********************************************************/
+
+.global_section{
+    background-color: #eef1ec;
+    padding: 80px 0;
+    background-image: url(../images/map.png);
+    background-repeat: no-repeat;
+  background-position: right;
+    background-size: 600px;
+    
+}
+.global_section h2{
+    color: #0f5f5c;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.global_section p{
+     color: #83a7a5;
+     font-size: 14px;
+}
+
+/****************************************************************** pricing_section ***************************/
+
+.pricing_section{padding: 57px 0;padding-bottom: 0px;color: #83a7a5;}
+ /* *******************************************row1 */
+.pricing_section:hover .title span{
+    width: 50px;
+    transition: .5s all ease-in-out;
+} 
+.row_111{
+
+}
+.row_111 p{
+
+}
+.row_111 h1{
+    color: #0f5f5c;
+    
+}
+ /* *******************************************row2*/
+
+ .row_2{
+    
+
+ }
+ .pricing_bar{margin: 90px 0;border: 1px solid #c1d3d2;text-align: center;}
+ .pricing_bar H1{
+    
+color: #0f5f5c;
+    font-weight: 600;
+font-size: 44px;
+    
+margin-bottom: 5px;
+ }
+ .pricing_bar:hover h1{
+    color: #6fb048;
+   
+    transition: .8s all ease-in-out;
+    
+ }
+ .pricing_bar h3{
+    
+font-size: 16px;
+    
+margin-bottom: 15px;
+    
+color: #0f5f5c;
+ }
+ .pricing_bar:hover  h3{
+    color: #6fb048;
+    transition: .5s all ease-in-out;
+    
+ }
+ .pricing_bar H4{
+    
+font-size: 19px;
+    
+padding-top: 20px;
+    
+color: #6fb048;
+    
+padding-bottom: 15px;
+ }
+ .pricing_bar P{
+    
+font-size: 16px;
+    
+color: #83a7a5;
+    
+padding: 20px 80px;
+ }
+ .pricing_bar a{
+    
+padding: 0;
+    font-weight: 600;
+border: none;
+    
+padding: 10px 30px;
+    
+border: 1px solid #83a7a5;
+    
+background: #83a7a5;
+    
+color: white;
+    
+margin-bottom: 30px;
+ }
+ .pricing_bar:hover a{
+    background-color: #6fb048;
+    color: white;
+    transition: .2s all ease-in-out;
+    
+ }
+.matgin_str4{
+    margin-left: 153px;
+}
+.matgin_str45{
+
+margin-right: -24px;
+
+margin-left: -24px;
+}
+/* ***********************************************row 3 -**/
+.green_title h1{
+
+color: #0f5f5c;
+}
+.green_title{
+    margin-bottom: 60px;
+}
+.green_title span{
+
+    background-color: #6fb048;
+}
+.green_title:hover  span{
+    width: 90px;
+    transition: .5s all ease-in-out;
+} 
+
+
+/*************************** row4 no need for css */
+
+
+/* ************************************row 5 */
+
+.pricing_row5{
+    margin: 90px 0;
+
+}
+.pricing_row5 img{
+  
+padding-bottom: 10px;
+  
+color: #6fb048;
+}
+.pricing_row5 h1{
+    
+color: #6fb048;
+}
+.pricing_row5 span{
+    background-color: #6fb048 !important;
+}
+
+ 
+.pricing_row5 p{
+    
+color: #83a7a5;
+    
+padding-bottom: 30px;
+}
+.pricing_row5 h4{
+    
+font-weight: 900;
+    
+color: #0f5f5c;
+    
+margin-bottom: 90px;
+}
+.pricing_row5:hover .title span{
+    width: 50px;
+    transition: .5s all ease-in-out;
+} 
+
+
+/* 
+***************************************************downloader_section *****************************************************************/
+
+
+.downloader_section{
+background-image: url(../images/ssection-banner.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 80px 0;
+}
+.downloader_section h1{
+    font-size: 28px;
+color: #0f5f5c;
+    
+margin-bottom: 15px;
+}
+.downloader_section p{
+    
+color: #83a7a5;
+    
+font-size: 15px;
+}
+.downloader_section a{
+    
+}.downloader_section .btn_download{
+    
+padding: -1px;
+    
+padding: 0;
+    
+background: #6fb048;
+    
+border: none;
+    
+border: 5px solid #6fb048;
+    
+padding: 15px 60px;
+    
+color: white;
+    
+font-weight: 700;
+}
+.downloader_section .btn_download:hover{
+    background-color: #0f5f5c;
+    color: #6fb048;
+    font-weight: 900;
+}
+.download_height{
+    align-items: center;
+}
+
+/* 
+.colum1 ****************/
+.wapikkk{
+    padding: 50px 0;
+    color: #83a7a5S;
+}
+
+.colar_1{
+
+
+}
+
+.colar_1 img{
+     margin-bottom: 20px;
+
+}
+
+.colar_1 ul{
+    list-style: none;
+
+}
+
+.colar_1 li{
+    color: #83a7a5;
+padding: 7px 0;
+font-weight: 500;
+}
+.colar_1 span {
+    color: #0f5f5c;
+    font-weight: 700;
+}
+
+
+
+.colar_2{
+
+margin-top: 38px;
+}
+.colar_2 ul{
+    
+list-style: none;
+}
+
+.colar_2 li{
+    padding: 3px 0;
+    color: #83a7a5;
+}.colar_2 span{
+    
+color: #0f5f5c;
+    
+font-weight: 900;
+}
+
+.colar_3 {
+
+}
+
+.colar_3 h5{
+    color: #0f5f5c;
+    font-weight: 700;
+    margin-top: 38px;
+    margin-bottom: 10px;
+}
+
+.colar_3 p{
+    color: #83a7a5;
+    margin-bottom: 15px;
+}
+
+.colar_3 form {
+    position: relative;
+    /* width: 297px; */
+}
+.colar_3 .icon {
+    position: absolute;
+    bottom: 10px;
+    right: 11px;
+   
+}
+.colar_3 input {
+    background-color: #eef1ec;
+    padding: 0;
+    border: none;
+    border: 1px solid #83a7a5;
+    padding: 10px 112px 10px 5px;
+}
+.colar_3 input::placeholder {
+    color: #83a7a5;
+    padding: 0;
+}
+
+.footer_content .info{
+
+font-size: 12px;
+
+
+
+color: #83a7a5;
+
+font-weight: 700;
+}
+.abc{
+    border-top: 1px solid #c0b5b5;
+}
+.flex_content{
+    justify-content: space-between;
+    padding: 26px 0px;
+    
+}
+.footer_content .logos{
+
+
+
+display: flex;
+}
+.footer_content .logos ul{
+
+display: flex;
+
+list-style: none;
+}
+.footer_content .logos li{
+
+margin-left: 20px;
+}
+.footer_content .logos img{
+
+}
+
+
+
+.border_line{
+    margin-top: 15px !important;
+    border-bottom: 1px solid #c1d3d2;
+    padding: 0 !important;
+}
+.nav_custom span{
+    display: block;
+    height: 15px;
+    width: 1px;
+    background-color: #bdc7c7;
+    margin-right: 18px;
+}
+.nav_custom{
+    align-items: center;
+}
+.nav_custom .icon {
+    align-items: center;
+}
+.nav_custom .icon i{
+    color:#bdc7c7 ;
+    font-size: 14px;
+}
+
+.nav_custom .icon p {
+    color: white;
+    font-size: 12px;
+}
+.images{
+    margin: 30px 0;
+    padding: 50px 0;
+    margin-left: 55px;
+}
